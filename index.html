@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <script src="lib/moment/moment.min.js"></script>
+    <script>
+      console.log(moment());
+    </script>
+</head>
+
+<header><div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Work Day Scheduler</h1>
+      <p class="lead"> currentDate </p>
+    </div>
+  </div>
+</header>
+
+<body>
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="9:00 AM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="10:00 AM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="11:00 AM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="12:00 AM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="1:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="2:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="3:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="4:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="5:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="6:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="7:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="8:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="9:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="10:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="11:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div><div class="input-group">
+        <input type="text" class="form-control" placeholder="12:00 PM" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+        <div class="input-group-append" id="button-addon4">
+          <button onclick="saveEvent()" class="btn btn-outline-secondary" type="button">Save</button>
+          <button class="btn btn-outline-secondary" type="button">Button</button>
+        </div>
+      </div>
+                                       
+      <script>
+        
+        function saveEvent() {
+        var Save = document.getElementById("button-addon4");
+        Save.getElementsByTagName("button").style.backgroundColor = "green";
+}
+
+      </script>
+
+
+
+</body>
+</html>
