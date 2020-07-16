@@ -1,0 +1,17 @@
+#Clock {
+    background-color: black;
+    align-self: center;
+    font-size: 40px;
+    color: white;
+}
+
+.btn{
+    background-color: crimson;
+    color: white;
+
+}
+
+.btn1{
+    background-color: green;
+    color: white
+}
