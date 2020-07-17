@@ -2,6 +2,10 @@ Design a header for the title (center text)
 
 Implement calender function to accurately display current date
 
+Link moment.js with HTML
+
+Set up on click functions for buttons
+
 GIVEN I am using a daily planner to create a schedule
 
 WHEN I open the planner
